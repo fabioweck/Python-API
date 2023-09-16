@@ -1,4 +1,4 @@
-# python-apis
+# Python-API
 Few lines of code to deliver a fully functional API!
 
 With an ideia to expand my last React/Typescript repository (Bookings), I decided to go for Python
