@@ -6,6 +6,8 @@ import uuid
 app = Flask(__name__, "/static")
 CORS(app)
 
+port_number = 7001
+
 #Reads the content of the json file and assigns to a variable
 with open("./static/bookings.json") as my_file:
     jsonFile = my_file.read()
@@ -59,4 +61,4 @@ def delete_item():
 
 #Runs the server
 if __name__ == '__main__':
-    app.run(debug=True, port=7001)
+    app.run(debug = True, port = port_number)
